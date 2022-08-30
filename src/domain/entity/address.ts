@@ -10,7 +10,7 @@ export default class Address {
     this._zip = zip;
     this._city = city;
 
-    this.validate;
+    this.validate();
   }
 
   get street(): string {
